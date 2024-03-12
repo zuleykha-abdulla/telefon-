@@ -1,0 +1,88 @@
+/*footer start*/
+
+.footer {
+}
+.footer h1 {
+  font-family: Poppins;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 54px;
+  letter-spacing: 0em;
+  color: blue;
+  padding-left: 40px;
+}
+.footer span {
+  color: rgb(6, 238, 6);
+}
+
+.izleyin p {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 40px;
+  letter-spacing: 0px;
+  color: white;
+}
+.elage p,
+a {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 40px;
+  letter-spacing: 0px;
+
+  color: white;
+}
+.unvan h4 {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 40px;
+  letter-spacing: 0px;
+  color: white;
+}
+.unvan p {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 40px;
+  letter-spacing: 0px;
+  color: white;
+  margin-top: 60px;
+}
+.footer-left {
+  width: 100%;
+  height: 117px;
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+}
+.izleme-umumi {
+  display: flex;
+  max-width: 144px;
+  width: 100%;
+  height: 117px;
+}
+.elage-umumi {
+  display: flex;
+  max-width: 164px;
+  width: 100%;
+  height: 77px;
+}
+.unvan {
+  display: flex;
+
+  width: 100%;
+  height: 69px;
+}
+
+.footer-umumi {
+  max-width: 1300px;
+  width: 100%;
+  height: 270px;
+  display: flex;
+  justify-content: space-between;
+
+  background-color: #140202;
+  gap: 60px;
+}

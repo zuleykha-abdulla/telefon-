@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p id="gun"></p>
+    <p id="saat"></p>
+    <p id="saniye"></p>
+    <p id="fullil"></p>
+    <p id="il"></p>
+    <p id="ay"></p>
+    <script>
+
+        //gun
+        let g = new Date();
+        g.setDate(2023);
+        document.getElementById("gun").innerHTML = g;
+          //il
+      let x = new Date();
+      x.setFullYear(2020);
+      document.getElementById("fullil").innerHTML = x;
+      
+      //il
+      let y = new Date();
+      y.setFullYear(2020, 11, 3);
+      document.getElementById("il").innerHTML = y;
+      
+      //ay
+      let z = new Date();
+      z.setMonth(11);
+      document.getElementById("ay").innerHTML = z;
+      
+      //saniye
+      let s = new Date();
+s.setSeconds(30);
+document.getElementById("saniye").innerHTML = s;
+        
+      
+    </script>
+  </body>
+</html>
